@@ -1,0 +1,18 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.0' // 원하는 버전으로 변경
+        // 다른 필요한 플러그인 및 종속성 추가
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
