@@ -5,8 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0' // 원하는 버전으로 변경
-        // 다른 필요한 플러그인 및 종속성 추가
+        classpath 'com.android.tools.build:gradle:4.2.0'
     }
 }
 

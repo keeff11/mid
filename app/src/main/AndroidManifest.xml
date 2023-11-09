@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.telnet123">
+
+    <!-- 네트워크 연결 권한 -->
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 외부 저장소 쓰기 권한 -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
@@ -12,14 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Telnet123"
         android:networkSecurityConfig="@xml/network_security_config">
+
         <activity
             android:name="com.example.telnet123.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
